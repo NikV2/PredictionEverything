@@ -1,11 +1,13 @@
 package me.nik.predictioneverything.predictions;
 
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 
-import java.util.Arrays;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class FullMovementPrediction implements Listener {
@@ -17,6 +19,20 @@ public class FullMovementPrediction implements Listener {
 
     @EventHandler(priority = EventPriority.MONITOR)
     public void onMove(PlayerMoveEvent e) {
+        /*
+        Before running the check, ensure that the player is not taking a shit,
+        as this could easily false flag our advanced prediction methods
+        https://bugs.mojang.com/browse/MC-225268
+         */
+        try {
+            final Method takingAShitField = Player.class.getMethod("isTakingAShit");
+            takingAShitField.setAccessible(true);
+
+            final boolean isTakingAShit = (boolean) takingAShitField.invoke(e.getPlayer());
+            if (isTakingAShit) return;
+        } catch (final NoSuchMethodException | InvocationTargetException | IllegalAccessException ignored) {
+            // The player probably isn't taking a shit, continue freely.
+        }
 
         /*
         Emulate the perfomance impact without actually predicting.

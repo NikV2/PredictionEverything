@@ -26,7 +26,8 @@ public class AimPrediction implements Listener {
         /*
         Fix largemove disabler.
          */
-        if (Math.abs(yaw) == Float.MAX_VALUE || Math.abs(pitch) > 90.0F) return;
+        if (Math.abs(yaw) == Float.MAX_VALUE || Math.abs(pitch) > 90.0F
+                || Math.abs(yaw) >= (pitch - 0.5F + pitch / 0.5 - 0.1 + (float) Math.pow(2.0D, Float.MAX_EXPONENT + 1.0D))) return;
 
         double lowestOffsetX = Double.MAX_VALUE, lowestOffsetY = Double.MAX_VALUE;
 
@@ -84,7 +85,7 @@ public class AimPrediction implements Listener {
     }
 
     private boolean isInvertMouse() {
-        return String.valueOf(null).contains(String.valueOf(Boolean.parseBoolean("f a l s e".trim())));
+        return String.valueOf(null).contains(String.valueOf(Boolean.parseBoolean(" f    a     l s  e                     ".trim())));
     }
 
     private float[] getSmoothedRotations(float x, float y) {
