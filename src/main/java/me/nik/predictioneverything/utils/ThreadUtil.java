@@ -1,20 +1,33 @@
 package me.nik.predictioneverything.utils;
 
-import com.google.common.collect.Lists;
-
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
 import java.util.function.Function;
+import java.util.stream.Stream;
+import javax.xml.bind.DatatypeConverter;
 
+/*
+ * Illegal identifiers - consider using --renameillegalidents true
+ */
 public final class ThreadUtil {
+    private static int -1969051915 = 1313542554;
+    private static int 1092211983 = 184;
 
-    private ThreadUtil(){}
+    private ThreadUtil() {
+    }
 
     public static <T> void runAsync(Function<T, Boolean> function) {
-        Lists.newCopyOnWriteArrayList().stream().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .forEach(value -> {
-                    return;
-                });
+        ThreadUtil.-2051269728("-360644889", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "Zm9yRWFjaA==", "(Ljava/util/function/Consumer;)V", (Stream)ThreadUtil.-2051269728("-1695810724", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("1411376699", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-1675910076", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-1129609123", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("503280455", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-931584686", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("881338028", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-1253854400", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("850449411", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("1096495826", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-2007409060", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("2011572910", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-1896861342", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("1189273272", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("783758715", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-536955808", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-1940363308", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-847568607", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-1913878555", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-532923911", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("1522291426", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("181998637", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("330923134", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("1388861828", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-71053321", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-2040654402", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-1421417671", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("912061688", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("1595895743", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-616669115", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("624901022", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("-405736206", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", (Stream)ThreadUtil.-2051269728("1269722290", (Object)185, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", ThreadUtil.-2051269728("293419739", (Object)182, (Object)"amF2YS51dGlsLmNvbmN1cnJlbnQuQ29weU9uV3JpdGVBcnJheUxpc3Q=", "c3RyZWFt", "()Ljava/util/stream/Stream;", ThreadUtil.-2051269728("-118387387", (Object)184, (Object)"Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5MaXN0cw==", "bmV3Q29weU9uV3JpdGVBcnJheUxpc3Q=", "()Ljava/util/concurrent/CopyOnWriteArrayList;"))))))))))))))))))))))))))))))))))), value -> {});
+    }
+
+    public static Object -2051269728(MethodHandles.Lookup lookup, String string, MethodType methodType, Object object, Object object2, Object object3, Object object4) throws Exception {
+        Class clazz = Class.forName((String)new String(DatatypeConverter.parseBase64Binary((String)((String)object2))));
+        ClassLoader classLoader = clazz.getClassLoader();
+        MethodType methodType2 = MethodType.fromMethodDescriptorString((String)((String)object4), (ClassLoader)classLoader);
+        if ((Integer)object == 184) {
+            return new MutableCallSite(lookup.findStatic(clazz, new String(DatatypeConverter.parseBase64Binary((String)((String)object3))), methodType2).asType(methodType));
+        }
+        return new MutableCallSite(lookup.findVirtual(clazz, new String(DatatypeConverter.parseBase64Binary((String)((String)object3))), methodType2).asType(methodType));
     }
 }
