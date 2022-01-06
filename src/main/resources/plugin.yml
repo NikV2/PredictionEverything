@@ -1,0 +1,4 @@
+name: PredictionEverything
+version: ${project.version}
+main: me.nik.predictioneverything.PredictionEverything
+api-version: 1.13
