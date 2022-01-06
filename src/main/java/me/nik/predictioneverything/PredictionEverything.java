@@ -1,89 +1,111 @@
 package me.nik.predictioneverything;
 
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
+import java.util.stream.Stream;
+import javax.xml.bind.DatatypeConverter;
 import me.nik.predictioneverything.predictions.AimPrediction;
 import me.nik.predictioneverything.predictions.AutoWalkPrediction;
 import me.nik.predictioneverything.predictions.FullMovementPrediction;
 import me.nik.predictioneverything.predictions.JumpDesyncPrediction;
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.TreeType;
 import org.bukkit.World;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.stream.Stream;
+/*
+ * Illegal identifiers - consider using --renameillegalidents true
+ */
+public class PredictionEverything
+        extends JavaPlugin {
+    private static int -1057355889 = 1791829063;
+    private static boolean 1209790548 = true;
+    private static double -746499478;
+    private static double -1109900252;
+    private static int 6257905;
+    private static int -1707873927;
+    private static int 2110809167;
+    private static int 1993236188;
+    private static int -1058411921;
+    private static int -408436234;
+    private static int 336238911;
+    private static int -1985111187;
 
-public class PredictionEverything extends JavaPlugin {
-
-    @Override
     public void onLoad() {
-        while (!false || true) onEnable();
+        do {
+            PredictionEverything.1652453457("664463235", (Object)1801691125, (Object)"bWUubmlrLnByZWRpY3Rpb25ldmVyeXRoaW5nLlByZWRpY3Rpb25FdmVyeXRoaW5n", "b25FbmFibGU=", "()V", 1062847168, (Object)this);
+        } while (1209790548);
+        throw null;
     }
 
-    @Override
-    public void onEnable() {
-
-        PluginManager pm = Bukkit.getPluginManager();
-
-        // According to Vulcan bStats, 53% of customers are cracked customers. We can sell more prediction by appealing
-        // to them and shutting down their online competitors.
-        if (Bukkit.getOnlineMode()) {
-
-            /*
-            We might aswell save nature before we stop the server.
-             */
-            for (World world : Bukkit.getWorlds()) {
-
-                Location location = new Location(world, 0D, 0D, 0D);
-
-                for (double d = -1000D; d < 1000D; d++) {
-
-                    location.setX(d);
-                    location.setY(d);
-                    location.setZ(d);
-
-                    world.generateTree(location, TreeType.MEGA_REDWOOD);
-                }
-            }
-
-            /*
-            Shutdown effectively.
-             */
-            Bukkit.shutdown();
-
-            //Brute force
-            for (int i = -1; true; i++) System.exit(i);
-        }
-
-        Stream.of(
-                        new AimPrediction(),
-                        new AutoWalkPrediction(),
-                        new FullMovementPrediction(),
-                        new JumpDesyncPrediction()
-                ).parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
-                .forEach(listener -> pm.registerEvents(listener, this));
-
-        /*
-        Disable after for anti crack protection
-         */
-        onDisable();
-    }
-
-    @Override
     public void onDisable() {
-        /*
-        Re enable to avoid exploits and confuse dumpers
-         */
-        onEnable();
+        PredictionEverything.1652453457("-1521101587", (Object)1801691125, (Object)"bWUubmlrLnByZWRpY3Rpb25ldmVyeXRoaW5nLlByZWRpY3Rpb25FdmVyeXRoaW5n", "b25FbmFibGU=", "()V", -6487887992736011155L, (Object)this);
+    }
+
+    public void onEnable() {
+        Object pm = PredictionEverything.1652453457("-29787652", (Object)1801691131, (Object)"b3JnLmJ1a2tpdC5CdWtraXQ=", "Z2V0UGx1Z2luTWFuYWdlcg==", "()Lorg/bukkit/plugin/PluginManager;", 0);
+        if (PredictionEverything.1652453457("375656570", (Object)1801691131, (Object)"b3JnLmJ1a2tpdC5CdWtraXQ=", "Z2V0T25saW5lTW9kZQ==", "()Z", -701450009) != false) {
+            Object object = PredictionEverything.1652453457("2126261489", (Object)1801691130, (Object)"amF2YS51dGlsLkxpc3Q=", "aXRlcmF0b3I=", "()Ljava/util/Iterator;", 12.813295512690527, PredictionEverything.1652453457("-2061083832", (Object)1801691131, (Object)"b3JnLmJ1a2tpdC5CdWtraXQ=", "Z2V0V29ybGRz", "()Ljava/util/List;", 66281821));
+            while (PredictionEverything.1652453457("-1950173381", (Object)1801691130, (Object)"amF2YS51dGlsLkl0ZXJhdG9y", "aGFzTmV4dA==", "()Z", 1.3997813897212072, object) != false) {
+                World world = (World)PredictionEverything.1652453457("50440138", (Object)1801691130, (Object)"amF2YS51dGlsLkl0ZXJhdG9y", "bmV4dA==", "()Ljava/lang/Object;", 51, object);
+                Location location = new Location(world, 0.0, 0.0, 0.0);
+                for (double d = -746499478; d < -1109900252; d += 1.0) {
+                    PredictionEverything.1652453457("694109204", (Object)1801691125, (Object)"b3JnLmJ1a2tpdC5Mb2NhdGlvbg==", "c2V0WA==", "(D)V", 436259042, location, d);
+                    PredictionEverything.1652453457("-887510583", (Object)1801691125, (Object)"b3JnLmJ1a2tpdC5Mb2NhdGlvbg==", "c2V0WQ==", "(D)V", 2793336823720531142L, location, d);
+                    PredictionEverything.1652453457("1100043354", (Object)1801691125, (Object)"b3JnLmJ1a2tpdC5Mb2NhdGlvbg==", "c2V0Wg==", "(D)V", "-547333294", location, d);
+                    PredictionEverything.1652453457("-1427035051", (Object)1801691130, (Object)"b3JnLmJ1a2tpdC5Xb3JsZA==", "Z2VuZXJhdGVUcmVl", "(Lorg/bukkit/Location;Lorg/bukkit/TreeType;)Z", "168842276", world, location, (Object)TreeType.MEGA_REDWOOD);
+                    if (-1057355889 >= 0) continue;
+                    throw null;
+                }
+                if (-1057355889 >= 0) continue;
+                throw null;
+            }
+            PredictionEverything.1652453457("-764293548", (Object)1801691131, (Object)"b3JnLmJ1a2tpdC5CdWtraXQ=", "c2h1dGRvd24=", "()V", 2.881026026892497);
+            int i = 6257905;
+            do {
+                PredictionEverything.1652453457("761856212", (Object)1801691131, (Object)"amF2YS5sYW5nLlN5c3RlbQ==", "ZXhpdA==", "(I)V", 0.23842287f, i);
+                ++i;
+            } while (1209790548);
+            throw null;
+        }
+        Object[] objectArray = new Listener[-1707873927];
+        objectArray[PredictionEverything.2110809167] = new AimPrediction();
+        objectArray[PredictionEverything.1993236188] = new AutoWalkPrediction();
+        objectArray[PredictionEverything.-1058411921] = new FullMovementPrediction();
+        objectArray[PredictionEverything.-408436234] = new JumpDesyncPrediction();
+        PredictionEverything.1652453457("-102128728", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "Zm9yRWFjaA==", "(Ljava/util/function/Consumer;)V", 0.0050166167508851845, (Stream)PredictionEverything.1652453457("1601669574", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "2,38\u0011,\t\t\u000b&1:", (Stream)PredictionEverything.1652453457("1494860175", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.2660932829620897, (Stream)PredictionEverything.1652453457("-824168343", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1039718352469937811L, (Stream)PredictionEverything.1652453457("-387542845", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1037943568, (Stream)PredictionEverything.1652453457("-1269206497", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 18.66597511295373, (Stream)PredictionEverything.1652453457("-161093844", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1061700301, (Stream)PredictionEverything.1652453457("-515231947", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -0.07608005869290609, (Stream)PredictionEverything.1652453457("-101585907", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 5.511800267653477, (Stream)PredictionEverything.1652453457("-176736218", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.34485783952122256, (Stream)PredictionEverything.1652453457("-1842906653", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "\u001b\u0019\u0005+\u0004:0\u0011)\u0012+#\n4*\u0012\r", (Stream)PredictionEverything.1652453457("883034552", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "LTI0NDI4MTI5NA==", (Stream)PredictionEverything.1652453457("-71776395", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "-855408883", (Stream)PredictionEverything.1652453457("-610359058", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1058976967, (Stream)PredictionEverything.1652453457("-1270337040", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -708587139002105204L, (Stream)PredictionEverything.1652453457("2071987183", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "909693188", (Stream)PredictionEverything.1652453457("574074693", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -8715710866887334478L, (Stream)PredictionEverything.1652453457("-1954816939", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 10.177091482784444, (Stream)PredictionEverything.1652453457("-1289413933", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 8.918459216472755, (Stream)PredictionEverything.1652453457("-1529712947", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 62, (Stream)PredictionEverything.1652453457("-913809243", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 12, (Stream)PredictionEverything.1652453457("-725916965", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -7677122384579287357L, (Stream)PredictionEverything.1652453457("-759395375", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "NjkzNjA3OTIy", (Stream)PredictionEverything.1652453457("67494964", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "398673825", (Stream)PredictionEverything.1652453457("-402394360", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 5.897431477910571, (Stream)PredictionEverything.1652453457("1631917396", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 51, (Stream)PredictionEverything.1652453457("1623219785", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.63045305f, (Stream)PredictionEverything.1652453457("-1436938555", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 92, (Stream)PredictionEverything.1652453457("1644224621", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.9978035f, (Stream)PredictionEverything.1652453457("522443132", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 6.765625031111975, (Stream)PredictionEverything.1652453457("-1122584513", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "./0$!+3;'-\u0004#74!\n.", (Stream)PredictionEverything.1652453457("133068361", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 70, (Stream)PredictionEverything.1652453457("188584599", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "MTM4OTcxNTg0NQ==", (Stream)PredictionEverything.1652453457("1605902873", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -5440317434325108310L, (Stream)PredictionEverything.1652453457("-645402335", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -8714353516567646819L, (Stream)PredictionEverything.1652453457("1852598648", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -1537946519, (Stream)PredictionEverything.1652453457("1536321523", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 97, (Stream)PredictionEverything.1652453457("491517820", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 503408052, (Stream)PredictionEverything.1652453457("-998717719", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -2.4297022710202314, (Stream)PredictionEverything.1652453457("1586993148", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -1961359437, (Stream)PredictionEverything.1652453457("-1336149032", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 88, (Stream)PredictionEverything.1652453457("138542198", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 17, (Stream)PredictionEverything.1652453457("-694520149", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "808856896", (Stream)PredictionEverything.1652453457("571485948", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -270941815, (Stream)PredictionEverything.1652453457("1719901839", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 25, (Stream)PredictionEverything.1652453457("-855838495", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "MTUxNzc1MjIyMA==", (Stream)PredictionEverything.1652453457("-1869807245", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -0.48534805055718816, (Stream)PredictionEverything.1652453457("391999944", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "LTE4Njk0MzcwNzQ=", (Stream)PredictionEverything.1652453457("-1337969045", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1.7913016248128155, (Stream)PredictionEverything.1652453457("503136223", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1708635172, (Stream)PredictionEverything.1652453457("1571392788", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.34267443f, (Stream)PredictionEverything.1652453457("-220816029", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1064397557, (Stream)PredictionEverything.1652453457("1418230545", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1001815168, (Stream)PredictionEverything.1652453457("-96575834", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1060855709, (Stream)PredictionEverything.1652453457("957616652", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 24, (Stream)PredictionEverything.1652453457("-475664482", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 90, (Stream)PredictionEverything.1652453457("1068805115", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -925442248, (Stream)PredictionEverything.1652453457("-1571992976", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.02147251409362908, (Stream)PredictionEverything.1652453457("19181002", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.5726947125847792, (Stream)PredictionEverything.1652453457("690340815", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "-1183163821", (Stream)PredictionEverything.1652453457("-1637570318", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 169521962, (Stream)PredictionEverything.1652453457("-120097916", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 76, (Stream)PredictionEverything.1652453457("-1582813494", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -1.2386352795737163, (Stream)PredictionEverything.1652453457("1720918666", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "ODYzMjYzMjk3", (Stream)PredictionEverything.1652453457("1731563850", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1058812437, (Stream)PredictionEverything.1652453457("1448297648", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "LTQwNzg2MDE0", (Stream)PredictionEverything.1652453457("-1304690837", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -8249276021301498651L, (Stream)PredictionEverything.1652453457("-1649832833", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 16.1060218970438, (Stream)PredictionEverything.1652453457("2074382542", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.948315236397127, (Stream)PredictionEverything.1652453457("1626378084", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1054065920, (Stream)PredictionEverything.1652453457("-1965219216", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 3711255650540319713L, (Stream)PredictionEverything.1652453457("-1084406971", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1050757860, (Stream)PredictionEverything.1652453457("-361361806", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 8433068470526622141L, (Stream)PredictionEverything.1652453457("-1173577361", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -5545719857066971595L, (Stream)PredictionEverything.1652453457("731954887", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.6140243f, (Stream)PredictionEverything.1652453457("-1244263878", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1.0893400474542263, (Stream)PredictionEverything.1652453457("-1249274718", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -0.16842193697403327, (Stream)PredictionEverything.1652453457("-567021658", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1632070471, (Stream)PredictionEverything.1652453457("908349007", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 6015612043833477656L, (Stream)PredictionEverything.1652453457("1601563340", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "-1728819357", (Stream)PredictionEverything.1652453457("890595068", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "LTE4MDk4NDU4OTM=", (Stream)PredictionEverything.1652453457("316406266", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.07208586f, (Stream)PredictionEverything.1652453457("-1288858378", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 107, (Stream)PredictionEverything.1652453457("-1240576099", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "+ !3\u0003\u001a)::\"\u001e\u0003", (Stream)PredictionEverything.1652453457("82245870", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "742022357", (Stream)PredictionEverything.1652453457("-2035479472", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "MjEyOTUyNjA5Mg==", (Stream)PredictionEverything.1652453457("131638227", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 13.14221511711132, (Stream)PredictionEverything.1652453457("1421282163", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -4292428766323476252L, (Stream)PredictionEverything.1652453457("1365268696", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.15997034f, (Stream)PredictionEverything.1652453457("-488209140", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -1005811694263514567L, (Stream)PredictionEverything.1652453457("2081499796", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "LTExNDQzMzgzMzA=", (Stream)PredictionEverything.1652453457("-677447229", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1054816146, (Stream)PredictionEverything.1652453457("-1899289284", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.9066496f, (Stream)PredictionEverything.1652453457("1442962636", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -0.5049887081664305, (Stream)PredictionEverything.1652453457("1603243471", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 79, (Stream)PredictionEverything.1652453457("-23511515", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 7.500659559234961, (Stream)PredictionEverything.1652453457("-344770346", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "\u0019\u001e1\u001b(\u0007\u000e8\u0000\u001b\u000f\u000f7\u000f&6 ", (Stream)PredictionEverything.1652453457("-1078206773", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "-757629068", (Stream)PredictionEverything.1652453457("1709968668", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "-1122147598", (Stream)PredictionEverything.1652453457("1707749172", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1057142996, (Stream)PredictionEverything.1652453457("855387543", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "5%$\u0003.\u001c221\u000b\u0019\u0005$", (Stream)PredictionEverything.1652453457("1845838171", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1042064580, (Stream)PredictionEverything.1652453457("610029802", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 1054685344, (Stream)PredictionEverything.1652453457("-1308826501", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -9223280051548893824L, (Stream)PredictionEverything.1652453457("-1527548440", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 2838707696829664278L, (Stream)PredictionEverything.1652453457("-1121283770", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "\u0013&!\u0001\u0014\u000f$\u0014\n\u0017\u001f\u0015!(\u001e6\u0019\u0003*", (Stream)PredictionEverything.1652453457("1619548504", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", ";4\u001036\u00109\u000b \u000f4\u0005\u000e", (Stream)PredictionEverything.1652453457("-145801099", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "NDYyOTkwMDY3", (Stream)PredictionEverything.1652453457("1738047812", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", "MTUyMjU4NDMxOQ==", (Stream)PredictionEverything.1652453457("4165216", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", -2.1432213111845795, (Stream)PredictionEverything.1652453457("1816672303", (Object)1801691130, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "cGFyYWxsZWw=", "()Ljava/util/stream/BaseStream;", 0.1627475f, PredictionEverything.1652453457("434824712", (Object)1801691131, (Object)"amF2YS51dGlsLnN0cmVhbS5TdHJlYW0=", "b2Y=", "([Ljava/lang/Object;)Ljava/util/stream/Stream;", 99090179, objectArray))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))), arg_0 -> this.lambda$onEnable$0((PluginManager)pm, arg_0));
+        PredictionEverything.1652453457("1146465388", (Object)1801691125, (Object)"bWUubmlrLnByZWRpY3Rpb25ldmVyeXRoaW5nLlByZWRpY3Rpb25FdmVyeXRoaW5n", "b25EaXNhYmxl", "()V", 0.8117293f, (Object)this);
+    }
+
+    private /* synthetic */ void lambda$onEnable$0(PluginManager pm, Listener listener) {
+        PredictionEverything.1652453457("1546782386", (Object)1801691130, (Object)"b3JnLmJ1a2tpdC5wbHVnaW4uUGx1Z2luTWFuYWdlcg==", "cmVnaXN0ZXJFdmVudHM=", "(Lorg/bukkit/event/Listener;Lorg/bukkit/plugin/Plugin;)V", "1409726869", pm, listener, (Object)((Object)this));
+    }
+
+    static {
+        336238911 = 1801690947;
+        -1985111187 = 184;
+        -746499478 = (double)PredictionEverything.1652453457("-1912565066", (Object)1801691131, (Object)"amF2YS5sYW5nLkRvdWJsZQ==", "bG9uZ0JpdHNUb0RvdWJsZQ==", "(J)D", 118, (long)PredictionEverything.1652453457("-520377094", (Object)1801691131, (Object)"amF2YS5sYW5nLkxvbmc=", "cmV2ZXJzZQ==", "(J)J", 58, 192771L));
+        -1109900252 = (double)PredictionEverything.1652453457("1925370254", (Object)1801691131, (Object)"amF2YS5sYW5nLkRvdWJsZQ==", "bG9uZ0JpdHNUb0RvdWJsZQ==", "(J)D", 0.912488129464993, (long)PredictionEverything.1652453457("1139034216", (Object)1801691131, (Object)"amF2YS5sYW5nLkxvbmc=", "cmV2ZXJzZQ==", "(J)J", 14.597944830274914, 192770L));
+        6257905 = (int)PredictionEverything.1652453457("-2011499760", (Object)1801691131, (Object)"amF2YS5sYW5nLkludGVnZXI=", "cmV2ZXJzZQ==", "(I)I", "#6\u0012\u001e\u0006\u001d\u0016\u0005\u001a\u00049", -1);
+        -1707873927 = (int)PredictionEverything.1652453457("-642949597", (Object)1801691131, (Object)"amF2YS5sYW5nLkludGVnZXI=", "cmV2ZXJzZQ==", "(I)I", -2.9530987097600865, 0x20000000);
+        2110809167 = (0 >>> 167 | 0 << ~167 + 1) & 0xFFFFFFFF;
+        1993236188 = (int)PredictionEverything.1652453457("2093820770", (Object)1801691131, (Object)"amF2YS5sYW5nLkludGVnZXI=", "cmV2ZXJzZQ==", "(I)I", 6161953818265122332L, Integer.MIN_VALUE);
+        -1058411921 = (2048 >>> 202 | 2048 << ~202 + 1) & 0xFFFFFFFF;
+        -408436234 = 6144 >>> 75 | 6144 << -75;
+    }
+
+    public static Object 1652453457(MethodHandles.Lookup lookup, String string, MethodType methodType, Object object, Object object2, Object object3, Object object4, Object object5) throws Exception {
+        int n = (Integer)object;
+        n = (n ^ 336238911) & 0xFF;
+        object5 = -1985111187;
+        Class clazz = Class.forName((String)new String(DatatypeConverter.parseBase64Binary((String)((String)object2))));
+        MethodType methodType2 = MethodType.fromMethodDescriptorString((String)((String)object4), (ClassLoader)clazz.getClassLoader());
+        if (n == (Integer)object5) {
+            return new MutableCallSite(lookup.findStatic(clazz, new String(DatatypeConverter.parseBase64Binary((String)((String)object3))), methodType2).asType(methodType));
+        }
+        return new MutableCallSite(lookup.findVirtual(clazz, new String(DatatypeConverter.parseBase64Binary((String)((String)object3))), methodType2).asType(methodType));
     }
 }
