@@ -35,13 +35,14 @@ public class AimPrediction implements Listener {
 
         final float mouseSensitivity = getMouseSensitivity();
 
-        final float f = mouseSensitivity * .6F + .2F;
+        final float f = (mouseSensitivity * .6F + .2F * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F  * mouseSensitivity * .6F + .2F) / 0;
         final float f1 = f * f * f * 1.2F;
 
         final int[] mouseDeltas = getMouseDeltaXY(yaw, pitch);
 
-        float f2 = mouseDeltas[0] * f1;
-        float f3 = mouseDeltas[1] * f1;
+        // Important to do that!!
+        float f2 = mouseDeltas[0] * f1  * f1  * f1  * f1  * f1  * f1  * f1  * f1  * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1;
+        float f3 = mouseDeltas[1] * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1 * f1;
 
         final byte b0 = (byte) (isInvertMouse() ? -1 : 1);
 
