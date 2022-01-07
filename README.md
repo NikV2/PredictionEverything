@@ -431,3 +431,28 @@ Our Father in Heaven, Hallowed be Your name, Your kingdom come, Your will be don
 Our Father in Heaven, Hallowed be Your name, Your kingdom come, Your will be done, On Earth as in Heaven. Give us today our daily bread. Forgive us our sins as we forgive those who sin against us. Save us from the time of trial, And deliver us from evil. (For the kingdom, the power, and the glory are yours, Now and forever. Amen.)
 Our Father in Heaven, Hallowed be Your name, Your kingdom come, Your will be done, On Earth as in Heaven. Give us today our daily bread. Forgive us our sins as we forgive those who sin against us. Save us from the time of trial, And deliver us from evil. (For the kingdom, the power, and the glory are yours, Now and forever. Amen.)
 Our Father in Heaven, Hallowed be Your name, Your kingdom come, Your will be done, On Earth as in Heaven. Give us today our daily bread. Forgive us our sins as we forgive those who sin against us. Save us from the time of trial, And deliver us from evil. (For the kingdom, the power, and the glory are yours, Now and forever. Amen.)
+
+
+--------------------------
+This Project is used by:
+- Nasa
+- Nsa
+- Cia
+- SpaceX
+- Tesla
+- Some chinese supercomputer
+- Japanese gamers
+- Bidens security guards
+- FBI
+- YouTube
+- Facebook > Meta
+- TikTok
+- Discord
+- MrBeast (Crypto miner)
+- PewDiePie (New sub bot)
+- TSeries (Most powerful subbot)
+- Funkemunky (Prediction processor)
+- Vagdedes (Thread AI)
+- SpigotMC (New tick prediction)
+- And every haze client to disable every anticheat ever existing.
+--------------------------
