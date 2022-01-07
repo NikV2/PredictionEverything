@@ -274,11 +274,19 @@ public final class KillauraPrediction extends Hack
 		target = null;
 	}
 	
+	private long dickSize;
+	
 	@Override
 	public void onRender(MatrixStack matrixStack, float partialTicks)
 	{
 		if(renderTarget == null)
 			return;
+			
+		final long now = System.currientTimeMillis();
+		if(now - dickSize > 16) {
+			player.swingHand(Hand.MAIN_HAND);
+			dickSize = now;
+		}
 		
 		// GL settings
 		GL11.glEnable(GL11.GL_BLEND);
