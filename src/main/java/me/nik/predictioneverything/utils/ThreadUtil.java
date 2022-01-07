@@ -9,12 +9,15 @@ public final class ThreadUtil {
     private ThreadUtil(){}
 
     public static <T> void runAsync(Function<T, Boolean> function) {
-        Lists.newCopyOnWriteArrayList().stream().parallel().parallel().parallel().parallel().parallel().parallel()
+        final boolean machAync = true;
+        while (machAync) {
+                    Lists.newCopyOnWriteArrayList().stream().parallel().parallel().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                 .forEach(value -> {
                     return;
                 });
+        }
     }
 }
