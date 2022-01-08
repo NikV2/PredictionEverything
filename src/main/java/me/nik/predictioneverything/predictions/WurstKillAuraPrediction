@@ -35,6 +35,9 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 
+/**
+Very easy to bypass.... Fixing later
+ */
 @SearchTags({"kill aura", "ForceField", "force field", "CrystalAura",
 	"crystal aura", "AutoCrystal", "auto crystal"})
 public final class KillauraPrediction extends Hack
