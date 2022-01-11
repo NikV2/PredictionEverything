@@ -3,7 +3,7 @@ package me.nik.predictioneverything.predictions;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class AreYouGoingToCheatPrediction extends JavaPlugin {
-    String s;
+    String s = "";
     public void run() {
         getLogger().info("Are you going to cheat? Let's see...");
         for (int i = 0; i < 1000; i++) {
@@ -22,7 +22,6 @@ public class AreYouGoingToCheatPrediction extends JavaPlugin {
         }
     }
     private void prediction() {
-        String s = "";
         if (Math.random() < 0.0005) {
             s = "Yes, you are going to cheat!";
         } else {
