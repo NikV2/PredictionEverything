@@ -1,6 +1,6 @@
-import de.ed0cinu.wurstfork.HACK;
-import de.ed0cinu.wurstfork.HACK.HAX;
-import de.ed0cinu.wurstfork.CLIENT;
+import wurstige.wurst.wurstfork.HACK;
+import wurstige.wurst.wurstfork.HACK.HAX;
+import wurstige.wurst.wurstfork.CLIENT;
 
 import java.util.Comparator;
 import java.util.function.ToDoubleFunction;
